@@ -1,0 +1,11 @@
+#grid-container {
+    display: flex;
+}
+
+.square {
+    background-color: black;
+    border-style: solid;
+    border-color: purple;
+    border-width: medium;
+    color: white;
+}
