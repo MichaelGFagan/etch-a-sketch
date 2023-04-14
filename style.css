@@ -1,11 +1,12 @@
 #grid-container {
-    display: flex;
+    display: grid;
+    height: 600px;
+    width: 600px;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
 }
 
 .square {
-    background-color: black;
-    border-style: solid;
-    border-color: purple;
-    border-width: medium;
-    color: white;
+    min-width: 0;
 }
